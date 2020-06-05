@@ -30,4 +30,4 @@ jobs:
     - name: Install Surge
       run:  npm install --global surge
     - name: Run Surge
-      run: surge  fbootcamp.surge.sh --token ${{secrets.F_SECRET}}
+      run: surge ./  fbootcamp.surge.sh --token ${{secrets.F_SECRET}}
